@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Submit Flags</h2>
+
+<div class="container">
+  <form>
+  <div class="row">
+    <div class="col-25">
+      <label for="challange 1"> Image Steganography : </label>
+    </div>
+    <div class="col-25">
+      <input type="text" id="challange 1" name="challange 1" value="">
+    </div>
+	<div class="col-25">
+      <input type="submit" value="Submit" onclick="myFunction()"><br>
+    </div>
+  </div>
+  </form>
+</div>
+
+<script>
+	function myFunction() {
+		var flag = document.getElementById("challange 1").value;
+		if (flag == "?Jr&s<~4'p&y4`b@*}{:"){
+			alert("Flag Submitted Successfully");
+		}else{
+			alert("Incorrect Flag");
+		}
+	}
+</script>
+
+<div class="container">
+  <form action="">
+  <div class="row">
+    <div class="col-25">
+      <label for="challange 2"> Password Cracking : </label>
+    </div>
+    <div class="col-25">
+      <input type="text" id="challange 2" name="challange 2" value="">
+    </div>
+	<div class="col-25">
+      <input type="submit" value="Submit"><br>
+    </div>
+  </div>
+  </form>
+</div>
+
+<div class="container">
+  <form action="">
+  <div class="row">
+    <div class="col-25">
+      <label for="challange 3"> SQL Injection : </label>
+    </div>
+    <div class="col-25">
+      <input type="text" id="challange 3" name="challange 3" value="">
+    </div>
+	<div class="col-25">
+      <input type="submit" value="Submit"><br>
+    </div>
+  </div>
+  </form>
+</div>
+
+<div class="container">
+  <form action="">
+  <div class="row">
+    <div class="col-25">
+      <label for="challange 4"> Reverse engineering : </label>
+    </div>
+    <div class="col-25">
+      <input type="text" id="challange 4" name="challange 4" value="">
+    </div>
+	<div class="col-25">
+      <input type="submit" value="Submit"><br>
+    </div>
+  </div>
+  </form>
+</div>
+
+<div class="container">
+  <form action="">
+  <div class="row">
+    <div class="col-25">
+      <label for="challange 5"> Decrypt an encoded text file : </label>
+    </div>
+    <div class="col-25">
+      <input type="text" id="challange 5" name="challange 5" value="">
+    </div>
+	<div class="col-25">
+      <input type="submit" value="Submit"><br>
+    </div>
+  </div>
+  </form>
+</div>
+
+<div class="container">
+  <form action="">
+  <div class="row">
+    <div class="col-25">
+      <label for="challange 6"> Audio Steganography : </label>
+    </div>
+    <div class="col-25">
+      <input type="text" id="challange 6" name="challange 6" value="">
+    </div>
+	<div class="col-25">
+      <input type="submit" value="Submit"><br>
+    </div>
+  </div>
+  </form>
+</div>
+
+<div class="container">
+  <form action="">
+  <div class="row">
+    <div class="col-25">
+      <label for="challange 7"> PDF Meta-data analysis : </label>
+    </div>
+    <div class="col-25">
+      <input type="text" id="challange 7" name="challange 7" value="">
+    </div>
+	<div class="col-25">
+      <input type="submit" value="Submit"><br>
+    </div>
+  </div>
+  </form>
+</div>
+
+<div class="container">
+  <form action="">
+  <div class="row">
+    <div class="col-25">
+      <label for="challange 8"> Cross-site scripting : </label>
+    </div>
+    <div class="col-25">
+      <input type="text" id="challange 8" name="challange 8" value="">
+    </div>
+	<div class="col-25">
+      <input type="submit" value="Submit"><br>
+    </div>
+  </div>
+  </form>
+</div>
+
+<div class="container">
+  <form action="">
+  <div class="row">
+    <div class="col-25">
+      <label for="challange 9"> Broken Access Control : </label>
+    </div>
+    <div class="col-25">
+      <input type="text" id="challange 9" name="challange 9" value="">
+    </div>
+	<div class="col-25">
+      <input type="submit" value="Submit"><br>
+    </div>
+  </div>
+  </form>
+</div>
+
+<div class="container">
+  <form action="">
+  <div class="row">
+    <div class="col-25">
+      <label for="challange10"> Broken Authentication : </label>
+    </div>
+    <div class="col-25">
+      <input type="text" id="challange10" name="challange10" value="">
+    </div>
+	<div class="col-25">
+      <input type="submit" value="Submit"><br>
+    </div>
+  </div>
+  </form>
+</div>
+
+<div class="container">
+  <form action="">
+  <div class="row">
+    <div class="col-25">
+      <label for="challange11"> CSRF Challenge : </label>
+    </div>
+    <div class="col-25">
+      <input type="text" id="challange11" name="challange11" value="">
+    </div>
+	<div class="col-25">
+      <input type="submit" value="Submit"><br>
+    </div>
+  </div>
+  </form>
+</div>
+
+<div class="container">
+  <form action="">
+  <div class="row">
+    <div class="col-25">
+      <label for="challange12"> Direct Traversal : </label>
+    </div>
+    <div class="col-25">
+      <input type="text" id="challange12" name="challange12" value="">
+    </div>
+	<div class="col-25">
+      <input type="submit" value="Submit"><br>
+    </div>
+  </div>
+  </form>
+</div>
+
+<div class="container">
+  <form action="">
+  <div class="row">
+    <div class="col-25">
+      <label for="challange13"> Decrypt an NPIET image : </label>
+    </div>
+    <div class="col-25">
+      <input type="text" id="challange13" name="challange13" value="">
+    </div>
+	<div class="col-25">
+      <input type="submit" value="Submit"><br>
+    </div>
+  </div>
+  </form>
+</div>
+
+<div class="container">
+  <form action="">
+  <div class="row">
+    <div class="col-25">
+      <label for="challange14"> Open source intelligence : </label>
+    </div>
+    <div class="col-25">
+      <input type="text" id="challange14" name="challange14" value="">
+    </div>
+	<div class="col-25">
+      <input type="submit" value="Submit"><br>
+    </div>
+  </div>
+  </form>
+</div>
+
+<div class="container">
+  <form action="">
+  <div class="row">
+    <div class="col-25">
+      <label for="challange15"> Malware analysis : </label>
+    </div>
+    <div class="col-25">
+      <input type="text" id="challange15" name="challange15" value="">
+    </div>
+	<div class="col-25">
+      <input type="submit" value="Submit"><br>
+    </div>
+  </div>
+  </form>
+</div>
+
+</body>
+</html>
